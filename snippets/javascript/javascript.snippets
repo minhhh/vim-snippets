@@ -52,7 +52,7 @@ snippet case
 	${0}
 # for (...) {...}
 snippet for
-	for (var ${2:i} = 0, l = ${1:arr}.length; $2 < l; $2 ++) {
+	for (var ${2:i} = 0, l = ${1:arr}.length; $2 < l; $2++) {
 		var ${3:v} = $1[$2];${0:}
 	}
 # for (...) {...} (Improved Native For-Loop)
@@ -81,7 +81,7 @@ snippet do
 snippet :f
 	${1:method_name}: function (${2:attribute}) {
 		${0}
-	}${3:,}
+	}
 # setTimeout function
 snippet timeout
 	setTimeout(function () {${0}}${2}, ${1:10});
